@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - Nahom T.</title>
     <link rel="icon" sizes="114x114"
-      href="https://img.icons8.com/carbon-copy/100/000000/resume.png" type="image/png">
+      href="./assets/images/icon.png" type="image/png">
 </head>
 <body>
     <nav>
@@ -26,7 +26,7 @@
                     </a></td>
                     <td><a href="facebook.com"><img src="./assets/images/facebook.webp" width="25" height="25">
                     </a></td>
-                    <td><a href="instagram.com"><img src="./assets/images/twitter.webp" width="25" height="25">
+                    <td><a href="instagram.com"><img src="./assets/images/insta.jfif" width="25" height="25">
                     </a></td>
                
             </tr>
@@ -55,18 +55,19 @@
         </a><br><br>
     </td><td></td></tr>
     <tr><td colspan="3"><img src="./assets/images/nwhite.png" alt="" width="150px"></td></tr>
+    <form action="display.html">
     <tr>
         <td></td>
         <td><label for="Name">Name*</label><br><br>
-            <input type="text" name="fname" id="fname" pattern="[a-zA-Z']{4,10}\S" width="350px"  placeholder="First Name" size="50">
-            <input type="text" name="lname" id="lname" pattern="[a-zA-Z']{4,10}\S" width="350px" placeholder="Last Name" size="50"><br><br><br>
+            <input type="text" name="fname" id="fname" pattern="[a-zA-Z']{4,10}\S" width="350px"  placeholder="First Name" size="50" required>
+            <input type="text" name="lname" id="lname" pattern="[a-zA-Z']{4,10}\S" width="350px" placeholder="Last Name" size="50" required><br><br><br>
         </td><td></td>
     </tr>
     <tr>
         <td></td>
         <td width="800px">
             <label for="email">Email*</label><br> <br>
-            <input type="email" name="email" id="email" size="106"> <br><br><br>
+            <input type="email" name="email" id="email" size="106" required> <br><br><br>
         </td>
         <td></td>
     </tr>
@@ -74,17 +75,18 @@
         <td></td>
         <td>
             <label for="subject">Subject*</label><br><br>
-            <input type="text" name="subject" id="name" size="106"><br><br><br>
+            <input type="text" name="subject" id="name" size="106" required><br><br><br>
         </td>
     </tr>
     <tr>
         <td></td>
         <td>
             <label for="Message">Message*</label><br><br>   
-            <textarea name="tarea" id="tarea" cols="108" rows="7"></textarea><br><br>
+            <textarea name="tarea" id="tarea" cols="108" rows="7" required></textarea><br><br>
             <input type="submit" value="Submit">
         </td>
     </tr>
+</form>
     <tr><td><img src="./assets/images/nwhite.png" alt="" width="150px" height="200px"></td></tr>
 </table>
 
