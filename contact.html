@@ -3,109 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Nahom T.</title>
+    <title>Contact -- Nahom Tamru</title>
     <link rel="icon" sizes="114x114"
       href="./assets/images/icon.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-    <nav>
-        <table width="1300px" height="150px">
-            
-            <tr>
-                <td></td><td></td><td></td><td><td><td></td></td></td>
-                <td><a href="index.html"><h1>Nahom <br> Tamru</h1></a><br>Student   |   Programmer |<br>Movie Fanatic</td>
-                 <th></th>
-                <th><a href="expertise.html">Expertise</a></th>
-                <th><a href="activities.html">Movies</a></th>
-                <th><a href="about.html">About</a></th>
-                <th><a href="contact.html">Contact</a></th>
-                <td>&nbsp;&nbsp;</td>
-                <th></th><th></th><th></th>
-                
-                <td><a href="https://twitter.com/home?lang=en" target="_blank"><img src="./assets/images/twitter.webp" width="25" height="25">
-                </a></td>
-                <td><a href="https://facebook.com" target="_blank"><img src="./assets/images/facebook.webp" width="25" height="25">
-                </a></td>
-                <td><a href="https://instagram.com" target="_blank"><img src="./assets/images/insta.jfif" width="25" height="25">
-                </a></td>
-               
-            </tr>
-         
-        </table>
-    </nav>
-    <tr><td colspan="3"><img src="./assets/images/nwhite.png" alt=""></td></tr>
 
-<table >
-    <tr>
-        <td><img src="./assets/images/nwhite.png" alt="" width="150px"></td>
-        <td><h1><img src="./assets/images/nwhite.png" alt="" width="150px">
-            <img src="./assets/images/nwhite.png" alt="" width="150px">Contact</h1></td><td><img src="./assets/images/nwhite.png" alt="" width="150px"></td></tr>
-    <tr><td><img src="./assets/images/nwhite.png" alt="" width="200px"></td><td>
-        I’m always looking to collaborate with new people. If you have project idea in mind, please don’t hesitate to get in touch.
-        &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; You can
-        send me a direct message on social media or fill out the form below. 
-         I look forward to hearing from you.</td> 
-  <td><img src="./assets/images/nwhite.png" alt="" width="150px"></td></tr>
-    <tr><td></td><td><img src="./assets/images/nwhite.png" alt="" width="320px">
-        <a href="https://twitter.com/home?lang=en" target="_blank"><img src="./assets/images/twitter.webp" width="25" height="25">
-        </a>
-        <a href="https://facebook.com" target="_blank"><img src="./assets/images/facebook.webp" width="25" height="25">
-        </a>
-        <a href="https://instagram.com" target="_blank"><img src="./assets/images/twitter.webp" width="25" height="25">
-        </a><br><br>
-    </td><td></td></tr>
-    <tr><td colspan="3"><img src="./assets/images/nwhite.png" alt="" width="150px"></td></tr>
-    <form action="display.html">
-    <tr>
-        <td></td>
-        <td><label for="Name">Name*</label><br><br>
-            <input type="text" name="fname" id="fname" pattern="[a-zA-Z']{4,10}\S" width="350px"  placeholder="First Name" size="50" required>
-            <input type="text" name="lname" id="lname" pattern="[a-zA-Z']{4,10}\S" width="350px" placeholder="Last Name" size="50" required><br><br><br>
-        </td><td></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td width="800px">
-            <label for="email">Email*</label><br> <br>
-            <input type="email" name="email" id="email" size="106" required> <br><br><br>
-        </td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
+<body class="text-center">
+
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
         
-        <td><label for="location">Where are you from?</label><br> <br>
-            <select name="country" id="">
+        <a class="navbar-brand" href="index.html"><h1>Nahom Tamru <br>
+          <small class="text-muted">Movie Fanatic</small>
+        </h1></a>
+      
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colNav"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle
+        navigation">
+         <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+        <!-- Nav links -->
+      
+        <div class="collapse navbar-collapse" id="colNav">
+        
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Watchlist</a></li>
+            <li><a href="#">Recommendations</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+      
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Fb</a></li>
+            <li><a href="#">Tw</a></li>
+            <li><a href="#">In</a></li>
+          </ul>
+        </div>
+      
+      </nav>
+  
+    
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">  
+      <main role="main" class="inner cover">
+        <h1 class="cover-heading">Contact</h1> <br>
+        <p class="lead">I’m always looking to collaborate with new people. If you have a project idea in mind, please don’t hesitate to get in touch. I look forward to hearing from you.</p>
+        <p class="lead">
+            <p>tamnahom7@gmail.com</p> <br>
+            <a href="#"><span><i class="fa fa-facebook fa-md"></i></span></a>
+            <a href="#"><span><i class="fa fa-linkedin fa-md"></i></span></a>
+        </p>
+      </main>
+    </div>   
 
-            <option value="af">Africa</option>
-            <option value="as">Asia</option>
-            <option value="eu">Europe</option>
-            <option value="na">North America</option>
-            <option value="sa">South America
-            </option>
-            <option value="au">Australia</option>
-            <option value="ot">Other</option>
-            
-            </select><br> <br><br></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td>
-            <label for="subject">Subject*</label><br><br>
-            <input type="text" name="subject" id="name" size="106" required><br><br><br>
-        </td>
-    </tr>
-    <tr>
-        <td></td>
-        <td>
-            <label for="Message">Message*</label><br><br>   
-            <textarea name="tarea" id="tarea" cols="108" rows="7" required></textarea><br><br>
-            <input type="submit" value="Submit">
-        </td>
-    </tr>
-</form>
-    <tr><td><img src="./assets/images/nwhite.png" alt="" width="150px" height="200px"></td></tr>
-</table>
+
 
 </body>
 </html>
