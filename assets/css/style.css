@@ -38,3 +38,12 @@ body, html {
 .cover-container {
   max-width: 32em;
 }
+
+#dep {
+    padding-top: 120px;
+}
+
+.inln{
+    text-decoration: none;
+    display: inline;
+}
