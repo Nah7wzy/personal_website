@@ -21,17 +21,20 @@ body, html {
 
 .imag {
     width: 100%;
-    height: 60%;
+    height: 100%;
+    padding-top: 5px;
+    padding-right: 5px;
 }
 
-#cardblog{
-    padding: 2px;
+.imag2 {
+    height: 21rem;
 }
 
-#imagblog {
-    height: 0%;
+
+#rec {
+    padding-bottom: 85px;
 }
 
 .cover-container {
-  max-width: 42em;
+  max-width: 32em;
 }
