@@ -48,6 +48,8 @@ body, html {
     display: inline;
 }
 
-.card {
+.card, .btn{
     border: none;
 }
+
+
