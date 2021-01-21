@@ -6,6 +6,12 @@
     <title>Blog -- Breaking Bad</title>
     <link rel="icon" sizes="114x114"
       href="./assets/images/icon.png" type="image/png">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@1&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
@@ -13,53 +19,64 @@
 
 <!--Navigation bar-->
 
-<nav class="navbar navbar-expand-md">
-    <div class="container-fluid">
-    
-    <a class="navbar-brand text-dark" href="index.html"><h1>Nahom Tamru <br>
-      <small class="text-muted">Movie Fanatic</small>
-    </h1></a>
-  
-  
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colNav"
-    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle
-    navigation">
-     <span class="navbar-toggler-icon"></span>
-    </button>
-  </div>
-    <!-- Nav links -->
-  
-    <div class="collapse navbar-collapse" id="colNav">
-    
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Watchlist</a></li>
-        <li><a href="#">Recommendations</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-  
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Fb</a></li>
-        <li><a href="#">Tw</a></li>
-        <li><a href="#">In</a></li>
-      </ul>
-    </div>
-  
-  </nav>
-  
+<div class="container-fluid">
+  <nav class="navbar navbar-expand-md">
+  <a class="navbar-brand text-dark" href="index.html"><h1>Nahom Tamru</h1></a>
+
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colNav"
+  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle
+  navigation">
+   <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Nav links -->
+  <div class="collapse navbar-collapse" id="colNav">
+
+  <ul class="navbar-nav ml-auto">
+      <li class="nav-item d-flex justify-content-end">
+      <a class="nav-link text-dark" href="../watchlist.html">My Watchlist</a>
+      </li>
+      <li class="nav-item d-flex justify-content-end">
+      <a class="nav-link text-dark" href="../recommendations.html">My Recommendations</a>
+      </li>
+     
+
+      <li class="nav-item d-flex justify-content-end">
+       <a class="nav-link text-dark" href="../Blog.html">Blog</a>
+       </li>
+       <li class="nav-item d-flex justify-content-end">
+       <a class="nav-link text-dark" href="../contact.html">Contact</a>
+       </li>
+      
+
+    <li class="nav-item d-flex justify-content-end">
+      <a class="nav-link text-dark" href="https://instagram.com"><i class="fa fa-instagram"></i></a>
+      <a class="nav-link text-dark" href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+      <a class="nav-link text-dark" href="https://facebook.com"><i class="fa fa-facebook"></i></a>
+      </li>
+     
+
+  </div>  
+
+
+</nav>
+</div>
+
 
 
   <div class="container" id="dep">
   <main role="main" class="inner cover text-center">
     <p class="date">17 January 2021</p>
 
-    <h1 class="cover-heading">12 Angry Men</h1>
+    <p id="hdng">A Timeless Classic</p>
 
-<a href="">Tw</a>
-<a href="">Fb</a>
-<a href="">In</a>
+    <a class= "text-dark" href="https://instagram.com"><span><i class="fa fa-instagram fa-md"></i></span></a>
+    <a class= "text-dark" href="https://twitter.com"><span><i class="fa fa-twitter fa-md"></i></span></a>
+    <a class= "text-dark" href="https://facebook.com"><span><i class="fa fa-facebook fa-md"></i></span></a> <br><br>
 
-    <p class="lead">
+    <h1 class="cover-heading">12 Angry Men</h1> 
+    <p class="lead" id="cpage">
         This was an absolute cracker to watch! Definitely a top 3 of all time 
         movie. when the entire movie is set in one room and to achieve such a 
        thrill is remarkable. The conversations are the strongest quality of this 
@@ -67,13 +84,13 @@
 acting by each character. It portrays a combination of rational thinking mixed 
 with rushed and swayed decisions.
     </p>
-    <img src="../assets/images/12amstd.jpg" alt="" class="img-fluid">
+    <img src="../assets/images/12am.jpg" alt="" class="img-fluid">
   </main>
   </div>
 <!--  -->
 
-    <script src="../assets/js/bootstrap.min.js"></script>
-    <script src="../assets/js/jquery-3.5.1.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
 </body>
 </html>

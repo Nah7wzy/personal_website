@@ -1,16 +1,37 @@
-.nav-navbar-nav li {
-    display: inline;
+.navbar {
+    font-family: 'Bebas Neue', cursive;
+    font-size: x-large;
+
 }
+
+#cpage{
+    font-family: 'Quicksand', sans-serif;
+    font-size: medium;
+}
+
+.cover-heading {
+    font-family: 'Bebas Neue', cursive;
+}
+
+#hdng{
+    font-family: 'Bodoni Moda', serif;
+    font-size: xx-large;
+}
+
+.navbar ul li {
+    padding: 8px;
+}
+
+
 
 body, html {
     height: 100%;
 }
 
 #home {
-    background-image: url("../../assets/images/bgimg.jpg");
+    background-image: url("../../assets/images/background.jpg");
     height: 100%;
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
     
 }
